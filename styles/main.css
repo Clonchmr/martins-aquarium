@@ -1,0 +1,71 @@
+body {
+    background-image: url("/images.jpg/background");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blanchedalmond;
+    text-shadow: 0 0 4px black;
+    font-family: cursive;
+}
+
+.fishImage {
+    width: 200px;
+    
+
+}
+
+.fishCards {
+    flex-basis: 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 8px;
+    max-width: 60%;
+    padding: 10px 20px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    
+}
+
+.tip {
+    margin-bottom: 30px;
+}
+
+.location {
+   /* flex-basis: 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;*/
+    max-width: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    
+    
+    
+    
+}
+
+#locationDescription {
+    margin-top: 20px;
+}
+
+.fishCards:hover  {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+.location:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+
